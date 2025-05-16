@@ -48,7 +48,13 @@ module half_adder(
 );
 
     // Logic for half adder
-    xor x1(S, A, B);  // Sum = A XOR B
-    and a1(C, A, B);  // Carry = A AND B
+    //using gate level modeling
+    xor x1(S, A, B);  //Sum = A XOR B
+    and a1(C, A, B);  //Carry = A AND B
+    
+
+    //using behavior modelling
+    // assign S=A^B;
+    // assign C=A&B;
 
 endmodule

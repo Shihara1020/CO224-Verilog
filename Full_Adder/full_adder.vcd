@@ -1,0 +1,75 @@
+$date
+	Fri May 16 19:05:08 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench $end
+$var wire 1 ! S_test $end
+$var wire 1 " Co_test $end
+$var reg 1 # A_test $end
+$var reg 1 $ B_test $end
+$var reg 1 % Ci_test $end
+$scope module uut $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 % Ci $end
+$var wire 1 " Co $end
+$var wire 1 ! S $end
+$var wire 1 & w1 $end
+$var wire 1 ' w2 $end
+$var wire 1 ( w3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10
+1!
+1%
+#20
+1&
+0%
+1$
+#30
+1"
+0!
+1'
+1%
+#40
+0"
+1!
+0'
+0%
+0$
+1#
+#50
+1"
+0!
+1'
+1%
+#60
+0'
+0&
+1(
+0%
+1$
+#70
+1!
+1%
+#80
